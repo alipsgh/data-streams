@@ -31,3 +31,8 @@ You may find pre-processed version of these data streams (or datasets) from http
 * **Shuttle**: The original dataset contains nine attributes, `7` class labels, and `58,000` instances and was designed to predict suspicious states during a NASA shuttle mission [2].
 
 I have created three evolving data streams from these three datasets, you find them in `data_streams/other_benchmarks/`.
+
+<br/>
+<br/>
+
+<sub>Ali Pesaranghader © 2017</sub>
