@@ -26,11 +26,25 @@ You may find pre-processed version of these data streams (or datasets) from http
 
 ## Other Benchmark Data Streams
 
-* **Adult**: The original dataset has `6` numeric and `8` nominal attributes, two class labels, and `48,842` instances. `32,561` instances are used for building the classification models. The dataset was used to predict whether a person earns an annual income greater than `$50,000` [1].
-* **Nursery**: The dataset consists of `5` classes labelled as  `no_recom`, `recommend`, `very_recom`, `priority`, and `spec_priority`. The number of occurrences of the third and fourth classes are infrequent and we removed them from the dataset, resulting in a dataset consisting of `20,000` instances.
-* **Shuttle**: The original dataset contains nine attributes, `7` class labels, and `58,000` instances and was designed to predict suspicious states during a NASA shuttle mission [2].
+* **Adult**: The original dataset has `6` numeric and `8` nominal attributes, two class labels, and `48,842` instances. `32,561` instances are used for building the classification models. The dataset was used to predict whether a person earns an annual income greater than `$50,000` [6].
+* **Nursery**: The dataset consists of `5` classes labelled as  `no_recom`, `recommend`, `very_recom`, `priority`, and `spec_priority`. The number of occurrences of the third and fourth classes are infrequent and we removed them from the dataset, resulting in a dataset consisting of `20,000` instances [7].
+* **Shuttle**: The original dataset contains nine attributes, `7` class labels, and `58,000` instances and was designed to predict suspicious states during a NASA shuttle mission [8].
 
 I have created three evolving data streams from these three datasets, you find them in `data_streams/other_benchmarks/`.
+
+<hr/>
+
+<b>References</b>
+  <ol>
+    <li>Žliobaite I (2013) How good is the electricity benchmark for evaluating concept drift adaptation. arXiv preprint arXiv:13013524</li>
+    <li>Blackard JA, Dean DJ (1999) Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types from cartographic variables. Computers and electronics in agriculture 24(3):131–151</li>
+    <li>Olorunnimbe MK, Viktor HL, Paquet E (2015) Intelligent adaptive ensembles for data stream mining: a high return on investment approach. In: International Workshop on New Frontiers in Mining Complex Patterns, Springer, pp 61–75</li>
+    <li>Bifet A, Holmes G, Pfahringer B, Kirkby R, Gavaldà R (2009) New ensemble methods for evolving data streams. In: Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining, ACM, pp 139–148</li>
+    <li>Huang DTJ, Koh YS, Dobbie G, Bifet A (2015) Drift detection using stream volatility. In: Joint European Conference on Machine Learning and Knowledge Discovery in Databases, Springer, pp 417–432</li>
+    <li>Kohavi R (1996) Scaling up the accuracy of naive-bayes classifiers: A decision-tree hybrid. In: KDD, Citeseer, vol 96, pp 202–207</li>
+    <li>Zupan B, Bohanec M, Bratko I, Demsar J (1997) Machine learning by function decomposition. In: ICML, pp 421–429</li>
+    <li>Catlett J (2002) Statlog (shuttle) data set</li>
+  </ol>
 
 <br/>
 <br/>
