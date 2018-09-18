@@ -51,7 +51,7 @@ I have created three evolving data streams from these three datasets, you find t
 
 ### Citation
 
-Please cite the following papers if you plan to use FHDDM, FHDDMS, and MDDMs:
+Please cite the following papers if you plan to use the data streams:
 
 1. Pesaranghader, Ali, Herna Viktor, and Eric Paquet. "__Reservoir of Diverse Adaptive Learners and Stacking Fast Hoeffding Drift Detection Methods for Evolving Data Streams__", *Machine Learning Journal*, 2018. <br />
 Pre-print available at: https://arxiv.org/abs/1709.02457, DOI: https://doi.org/10.1007/s10994-018-5719-z
