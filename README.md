@@ -14,6 +14,8 @@ As just mentioned, **Sine1**, **Sine2**, **Mixed**, **Stagger**, **Circles** hav
 
 Typically, for the purpose of experiment, each data stream contains `100,000` or `1,000,000` instances. In the case of `100,000` instances, drift points may be put at every `20,000` instances in **Sine1**, **Sine2**, and **Mixed**, and at every `33,333` instances in **Stagger** with a transition length of `w=50` to simulate _abrupt_ concept drifts. For the **Circles** and **LED** data streams, concept drifts happen at every `25,000` instances with a transition length of `w=500` to simulate _gradual_ concept drifts. `10%` class noise may also added to each data stream.
 
+You may download the zipped files for each group of data streams from [DropBox](https://www.dropbox.com/sh/cx58kb5yctdimln/AADPP__VynluSkHssXwC4DNxa?dl=0).
+
 You find `.zip` files containing 100 `.arff` files for each synthetic data stream in `data_streams/synthetic/`.
 
 ## Real-world Data Streams
